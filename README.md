@@ -1,4 +1,8 @@
 # Linux System Monitor
+![Linux Distribution](https://img.shields.io/badge/Linux-Ubuntu-%23E95420?logo=ubuntu)
+![GNU Bash Version](https://img.shields.io/badge/Bash-4%2B-%234EAA25?logo=gnubash&logoColor=white)
+[![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
+![Made By](https://img.shields.io/badge/Made%20By-Reginald%20Griffin%20II-%23E85C33)
 
 A collection of Bash scripts for monitoring system health, checking server availability, and basic Linux administration. These scripts demonstrate foundational Linux automation skills applicable to cloud engineering and DevOps roles.
 
@@ -73,8 +77,8 @@ Starting ping checks at Thu May 14 14:45:01 CDT 2026
 ❌ amazon.com is DOWN (ICMP blocked)
 ✅ pandora.com is UP
 ```
-❗Important:
-Some services (like amazon.com) block ICMP pings. A "DOWN" result may indicate ICMP filtering rather than an actual downtime. For production monitoring, try TCP or HTTP checks.
+⚠️Important: 
+_Some services (like amazon.com) block ICMP pings. A "DOWN" result may indicate ICMP filtering rather than an actual downtime. For production monitoring, try TCP or HTTP checks._
 
 ### System Status
 Quick system uptime check:

@@ -35,7 +35,7 @@ cd linux-system-monitor
 ```
 2. Make scripts executable:
 ```
-chmod +z *.sh
+chmod +x *.sh
 ```
 3. Move scripts to `~/bin/` and add to PATH for global access (**Optional**):
 ```

@@ -98,4 +98,4 @@ System OK
 MIT License — feel free to use, modify, and distribute.
 
 ## 👤 Author
-Reginald Griffin II 
+Reginald Griffin II — [@ReggieRay210](https://github.com/ReggieRay210)

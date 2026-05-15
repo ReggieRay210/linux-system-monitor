@@ -15,7 +15,7 @@ A collection of Bash scripts for monitoring system health, checking server avail
 | `status.sh` | A simple system status script showing uptime and a confirmation message. |
 
 ## 📁 Project Structure
-```
+```bash
 linux-system-monitor/
 ├── system_health.sh    # Main health monitoring script
 ├── ping_check.sh       # Server availability checker
@@ -38,11 +38,11 @@ git clone https://github.com/ReggieRay210/linux-system-monitor.git
 cd linux-system-monitor
 ```
 2. Make scripts executable:
-```
+```bash
 chmod +x *.sh
 ```
 3. Move scripts to `~/bin/` and add to PATH for global access (**Optional**):
-```
+```bash
 mkdir -p ~/bin
 cp *.sh ~/bin/
 export PATH = "$PATH:$Home/bin/"
@@ -51,11 +51,11 @@ export PATH = "$PATH:$Home/bin/"
 ## 📖 Usage 
 ### System Health Monitor
 Run a comprehensive health check:
-```
+```bash
 ./system_health.sh
 ```
 _Sample Output:_
-```
+```bash
 === System Health Report: Thu May 14 14:44:37 CDT 2026 ===
 CPU Load (1 min): 0.12
 Memory used: 1.2G/3.8G
@@ -66,11 +66,11 @@ ubuntu    1234  5.6  2.1 123456 45678 ?        Ssl  14:30   0:02 some-service
 ```
 ### Server Availability Check
 Test connectivity to a pre-defined list of servers. This can be adjusted for custom use:
-```
+```bash
 ./ping_check.sh
 ```
 _Sample Output:_
-```
+```bash
 Starting ping checks at Thu May 14 14:45:01 CDT 2026
 ✅ google.com is UP
 ✅ github.com is UP
@@ -82,11 +82,11 @@ _Some services (like amazon.com) block ICMP pings. A "DOWN" result may indicate 
 
 ### System Status
 Quick system uptime check:
-```
+```bash
 ./status.sh
 ```
 _Sample Output:_
-```
+```bash
 14:46:02 up 2 days, 4:22, 2 users, load average: 0.08, 0.03, 0.01
 System OK
 ```

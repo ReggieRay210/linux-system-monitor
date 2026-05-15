@@ -45,7 +45,7 @@ chmod +x *.sh
 ```bash
 mkdir -p ~/bin
 cp *.sh ~/bin/
-export PATH = "$PATH:$Home/bin/"
+export PATH="$PATH:$HOME/bin/"
 ```
 
 ## 📖 Usage 

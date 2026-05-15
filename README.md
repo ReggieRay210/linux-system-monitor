@@ -100,6 +100,7 @@ System OK
 
 ## 📜 License
 MIT License — feel free to use, modify, and distribute.
+See the `LICENSE` file for more information.
 
 ## 👤 Author
 Reginald Griffin II — [@ReggieRay210](https://github.com/ReggieRay210)

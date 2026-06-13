@@ -78,7 +78,7 @@ Starting ping checks at Thu May 14 14:45:01 CDT 2026
 ✅ pandora.com is UP
 ```
 ⚠️Important: 
-_Some services (like amazon.com) block ICMP pings. A "DOWN" result may indicate ICMP filtering rather than an actual downtime. For production monitoring, try TCP or HTTP checks._
+_Some services (like Amazon.com) block ICMP pings. A "DOWN" result may indicate ICMP filtering rather than an actual downtime. For production monitoring, try TCP or HTTP checks
 
 ### System Status
 Quick system uptime check:
@@ -96,7 +96,7 @@ System OK
 * Integrate with AWS CloudWatch for EC2 monitoring
 * Expand ping check to support TCP/HTTP health checks
 * Add HTML report generation
-* Implement configuration file for thresholds and server lists
+* Implement a configuration file for thresholds and server lists
 
 ## 📜 License
 MIT License — feel free to use, modify, and distribute.
